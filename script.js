@@ -11,7 +11,7 @@ function getPilihanComputer() {
     if( player == 'orang' ) return( comp == 'gajah' ) ? 'KALAH!' : 'MENANG!';
     if( player == 'semut' ) return( comp == 'orang' ) ? 'KALAH' : 'MENANG!';
     }
-
+// ini yang dibutuhkan untuk commit
 function putar () {
     const imgComputer = document.querySelector('.img-komputer');
     const gambar = ['gajah','semut','orang'];
